@@ -1,130 +1,59 @@
-<title>Fernando's Portfolio</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Fernando's Portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
 
-
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
-        <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>                        
-      </button>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
       <a class="navbar-brand" href="#">Fernando's Portfolio</a>
     </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">About</a></li>
-          <li><a href="#section2">Portfolio</a></li>
-          <li><a href="#section3">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <div class="container">
-    <div class="jumbotron">
-      <div class="row">
-        <div class="col-xs-12">
-          <div id="section1" class="container-fluid" style="background-color: white; color: black; padding-top:30px; padding-bottom:30px;">
-            <div class="col-md-8">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#section2">Portfolio</a></li>
+      <li><a href="#section3">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+  
+<div class="container">
+  <div class="jumbotron">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="col-md-8">
               <h1>About</h1>
               <p>Electrical Engineer interested on PCB design, VLSI and Web-development subjects.</p>
-            </div>
-            <div class="col-md-4">
-              <img src="https://s26.postimg.org/sw00072yh/image.jpg" class="img-circle" alt="FV" width="50%">
-            </div>
-          </div>
         </div>
-        <div class="col-xs-12">
-          <div id="section2" class="container-fluid" style="background-color:white; color:black; padding-top:30px; padding-bottom:20px;">
-            <h1>Portfolio</h1>
-            <p>The following pictures show some projects done during professional lifetime.</p>
-            <div class="col-md-4">
-              <div class="thumbnail">
-                <img class ="img-responsive" src="https://fvaldezc.github.io/FernandoValdez/images/ekinediphoto.png" alt="Lights"  width="304" height="236">
-                <div class="caption">
-                  <p style="text-align:center"><strong>Basic Website - A simple website</strong></p>
-                    </div>
-                  </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-      <div class="thumbnail">
-          <img src="https://s26.postimg.org/k9x6yz7w9/Screen_Shot_2016_12_05_at_10_24_21_AM.png" alt="Cats" style="width:73%">
-          <div class="caption">
-            <p style="text-align:center"><strong>Movil Website - Cats app</strong></p>
-          </div>
-        </a>
+        <div class="col-md-4">
+              <img src="https://s26.postimg.org/sw00072yh/image.jpg" class="img-circle center-block" alt="FV" width="50%">
+        </div>
       </div>
-    </div>
-            <div class="col-md-4">
-      <div class="thumbnail">
-          <img src="https://s26.postimg.org/8aloro2bd/Screen_Shot_2016_12_05_at_10_50_52_AM.png" alt="Lights" style="width:95%">
-          <div class="caption">
-            <p style="text-align:center"><strong>JQuery - Buttons Animation</strong></p>
-          </div>
-        </a>
+      <div class="col-xs-12">
+        <h1>Portfolio</h1>
+        <p>The following pictures show some projects done during professional lifetime.</p>
+        <div class="col-md-4">
+          <img class= "img-thumbnail img-responsive" src="https://fvaldezc.github.io/FernandoValdez/images/ekinediphoto.png" alt="Lights">
+            <p style="text-align:center"><strong>Online Store - ekinedi</strong></p>
+        </div>
+
       </div>
+
+
+
+
+
     </div>
-          </div>
-        </div>
-        <div class="col-xs-12">
-          <div id="section3" class="container-fluid" style="background-color:white; color:black; padding-top:30px; padding-bottom:20px;">
-            <h2 class="text-center">CONTACT</h2>
-            <div class="row">
-              <div class="col-sm-5">
-                <p>Contact us and we'll get back to you as soon as possible.</p>
-                <p><span class="glyphicon glyphicon-map-marker"></span> Cd. Juarez, Chihuahua, Mexico</p>
-                <p><span class="glyphicon glyphicon-envelope"></span> fvaldez.mail@gmail.com</p>
-              </div>
-              <div class="col-sm-7 slideanim">
-                <div class="row">
-                  <div class="col-sm-6 form-group">
-                    <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-                  </div>
-                  <div class="col-sm-6 form-group">
-                    <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-                  </div>
-                </div>
-                <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
-                <div class="row">
-                  <div class="col-sm-12 form-group">
-                    <button class="btn btn-default pull-right" type="submit">Send</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12">
-          <div id="section4" class="container-fluid" style="background-color:black; color:#fff; padding-top:20px; padding-bottom:20px;">
-            <div class="row">
-              <div class="col-xs-4" style="text-align:center">
-                <a href="https://github.com/fvaldezc" target='_blank'>
-                  <i class="fa fa-github" style="font-size:36px; color:white"></i>
-                </a>
-              </div>
-              <div class="col-xs-4" style="text-align:center">
-                  <a href="https://www.facebook.com" target='_blank'>
-                    <i class="fa fa-facebook" style="font-size:36px; color:white"></i>
-                </a>
-              </div>
-              <div class="col-xs-4" style="text-align:center">
-                <a href="https://twitter.com/fvaldez_mail" target='_blank'>
-                  <i class="fa fa-twitter" style="font-size:36px; color:white"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-  </div>
   </div>
 </div>
-</div>
+
 </body>
+</html>
 
